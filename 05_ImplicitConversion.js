@@ -98,23 +98,3 @@ console.log(`Type of 100 is: ${typeof numberInString}`);
 var afterConversion = myNumber.toString();
 console.log(`Type of 'myNumber.toString()' is: ${typeof numberInString}`);
 
-
-var isEvenorOddNum = function (num) {
-    var resultt = num % 2 == 0 ? "true (given number is even)" : "false (given number is odd)";
-   return resultt;
-}
-var n1=29;
-var resultt = isEvenorOddNum(n1);
-console.log(`Return value for ${n1} is ::${resultt} `);
-
-var n2=44;
-var resultt = isEvenorOddNum(n2); 
-console.log(`Return value for ${n2} is ::${resultt} `);
-
-var n3=0;
-var resultt = isEvenorOddNum(n3); 
-console.log(`Return value for ${n3} is ::${resultt} `);
-
-var n4=101;
-var resultt = isEvenorOddNum(n4); 
-console.log(`Return value for ${n4} is ::${resultt} `);
