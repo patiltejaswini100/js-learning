@@ -27,3 +27,6 @@ const elements = friendList.join(",");
 console.log(elements);
 
 console.log(friendList.join("="));
+
+
+
